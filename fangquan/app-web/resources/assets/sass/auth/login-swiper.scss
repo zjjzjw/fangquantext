@@ -1,0 +1,139 @@
+/*轮播大图*/
+.carousel-figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  float: left;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.swiper-slide a {
+  display: block;
+  height: 100%;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.swiper-wrapper img {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/*登入*/
+.login-form {
+  width: 315px;
+  height: 400px;
+  margin: 0 auto;
+  z-index: 999;
+  position: relative;
+  right: -442px;
+}
+
+.login-wrapper {
+  width: 315px;
+  height: 100%;
+  padding: 0 24px;
+  position: absolute;
+  right: 0px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.login-wrapper h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 39px;
+  margin-bottom: 27px;
+}
+
+.login-wrapper .form-group {
+  background-color: #ffffff;
+  position: relative;
+  height: 46px;
+  margin-bottom: 10px;
+}
+
+.login-wrapper .form-group label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  text-align: center;
+}
+
+.login-wrapper .form-group i.iconfont {
+  color: #1bc7c9;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.login-wrapper .form-group input {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  text-indent: 39px;
+  font-size: 16px;
+  color: #999;
+}
+
+.login-wrapper .forget-password {
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 17px;
+  display: block;
+  font-size: 16px;
+}
+
+.login-wrapper .registration {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.login-wrapper .form-group .btn {
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: #1bc7c9;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  text-indent: 0;
+  padding: 0;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.login-wrapper .registration {
+  display: block;
+  margin-right: 4px;
+  text-align: right;
+}
+
+.login-wrapper .registration span {
+  color: #1bc7c9;
+}
+
+.form-error {
+  color: #a94442;
+  font-weight: bold;
+}

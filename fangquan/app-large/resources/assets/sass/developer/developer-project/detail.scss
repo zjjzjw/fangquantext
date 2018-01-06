@@ -1,0 +1,25 @@
+.section03 .right .content-box:first-child img {
+  max-width: 246px;
+  width: auto;
+  max-height: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.section03 .left .content .table > tbody > tr > td:nth-of-type(odd) {
+  width: 120px;
+}
+
+.no-permission {
+  font-family: "HiraginoSansGB W3";
+  margin-top: 130px;
+  text-align: center;
+  font-size: 24px;
+  color: #3f3f3f;
+}
+
+.no-permission img {
+  width: 250px;
+  height: 280px;
+  margin-top: 95px;
+}

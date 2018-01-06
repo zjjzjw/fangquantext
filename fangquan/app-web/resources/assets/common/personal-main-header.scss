@@ -1,0 +1,44 @@
+header {
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.header-box {
+  width: 1200px;
+  height: 68px;
+  margin: 0 auto;
+}
+
+.logo-box {
+  float: left;
+  width: 103px;
+  height: 68px;
+  padding-top: 18px;
+}
+
+.logo-box img {
+  width: 103px;
+  height: 33px;
+}
+
+.propaganda {
+  width: 950px;
+  line-height: 68px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: #666666;
+}
+
+.login-box {
+  float: right;
+  line-height: 68px;
+  font-size: 18px;
+}
+
+.login-box .messages .iconfont {
+  margin-right: 17px;
+}

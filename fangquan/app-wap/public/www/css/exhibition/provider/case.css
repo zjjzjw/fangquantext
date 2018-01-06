@@ -1,0 +1,52 @@
+.case-box {
+    padding: 2.7vw 0;
+    background-color: #fff;
+}
+.case-box p{
+    height: 40px;
+    line-height: 40px;
+    color: #757575;
+    font-size: 17px;
+    border-bottom: 1px solid #efefef;
+    padding-left: 4vw;
+}
+.list-box{
+    width: 100%;
+    font-size: 3.7vw;
+    color: #919191;
+}
+.list-box>ul>li{
+    padding:20px 0;
+    border-bottom:1.1vw solid #efefef;
+}
+.list-box ul li p{
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #1bc7c9;
+    padding-left: 15px;
+}
+.list-box ul li .list-detail{
+    text-align: left;
+    padding: 1px;
+    border:1px solid #1bc7c9;
+    margin:0 4vw;
+}
+.list-box ul li ul{
+    padding:0 5px;
+}
+.list-box ul li ul li{
+    text-align: left;
+    padding: 15px 0 15px 10px;
+    line-height: 25px;
+    border-bottom: 1px solid #efefef;
+}
+.content-empty {
+    margin-top: 70px;
+    text-align: center;
+}
+.content-empty p {
+    color: #BBBBBB;
+    font-size: 15px;
+    margin-top: 22px;
+}

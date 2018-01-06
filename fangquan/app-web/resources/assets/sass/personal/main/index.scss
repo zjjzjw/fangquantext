@@ -1,0 +1,136 @@
+@import "../../../common/personal-main-header";
+
+.content-box {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #666666;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+}
+
+.part-one {
+  height: 320px;
+  background: #ffffff;
+  padding: 46px 0 34px 20px;
+}
+
+.improving-information {
+  width: 728px;
+  height: 244px;
+  float: left;
+  border-right: 1px solid #EFEFEF;
+}
+
+.user-name {
+  margin-bottom: 23px;
+}
+
+.improving-information .user-name em {
+  margin-left: 35px;
+  margin-right: 80px;
+  color: #f77777;
+}
+
+.improving-information p {
+  margin-bottom: 23px;
+}
+
+.improving-information p span:first-child {
+  width: 90px;
+  display: inline-block;
+}
+
+.my-account {
+  float: left;
+  margin-left: 40px;
+}
+
+.my-account ul {
+  margin-left: 56px;
+  margin-top: 35px;
+}
+
+.my-account li {
+  margin-bottom: 23px;
+}
+
+.my-account li img {
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+.part-two {
+  margin-top: 10px;
+  height: 167px;
+}
+
+.part-two li {
+  width: 230px;
+  height: 167px;
+  background: #ffffff;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  padding: 38px 20px 0;
+}
+
+.part-two li img {
+  margin-bottom: 10px;
+}
+
+.part-three {
+  height: 350px;
+}
+
+.part-three h3 {
+  line-height: 44px;
+  position: relative;
+  background: #fafafa;
+  padding-left: 20px;
+}
+
+.part-three h3:before {
+  content: '';
+  width: 10px;
+  height: 33px;
+  background: #1bc7c9;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.part-three li {
+  width: 594px;
+  height: 156px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  margin-bottom: 15px;
+  padding: 15px 40px;
+}
+
+.part-three li:nth-child(2n-1) {
+  margin-right: 12px;
+}
+
+.part-three li img {
+  margin-bottom: 16px;
+}
+
+.part-three li .vip-box {
+  margin-left: 40px;
+}
+
+.part-three li .vip-box a {
+  width: 95px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  color: #ffffff;
+  display: block;
+  background: #1bc7c9;
+  float: right;
+}

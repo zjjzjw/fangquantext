@@ -1,0 +1,137 @@
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: 1900px;
+  max-width: none !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.map-marker {
+  position: relative;
+}
+
+.map-marker .point-box {
+  position: absolute;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 5px 5px 5px 0;
+  background-color: #e70012;
+}
+
+.point-box p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.point-box span {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #e70012;
+  border-right: 10px solid transparent;
+}
+
+.map-marker .point-box-01 {
+  top: 416px;
+  left: 354px;
+}
+
+.map-marker .point-box-02 {
+  top: 339px;
+  left: 854px;
+}
+
+.map-marker .point-box-03 {
+  top: 340px;
+  left: 976px;
+}
+
+.map-marker .point-box-04 {
+  top: 464px;
+  left: 1455px;
+}
+
+.map-marker .point-box-05 {
+  top: 478px;
+  left: 355px;
+}
+
+.map-marker .point-box-06 {
+  top: 533px;
+  left: 499px;
+}
+
+.map-marker .point-box-07 {
+  top: 452px;
+  left: 737px;
+}
+
+.map-marker .point-box-08 {
+  top: 457px;
+  left: 1137px;
+}
+
+.map-marker .point-box-09 {
+  top: 452px;
+  left: 1331px;
+}
+
+.map-marker .point-box-10 {
+  top: 526px;
+  left: 1455px;
+}
+
+.map-marker .point-box-11 {
+  top: 539px;
+  left: 353px;
+}
+
+.map-marker .point-box-12 {
+  top: 586px;
+  left: 1455px;
+}
+
+.map-marker .point-box-13 {
+  top: 750px;
+  left: 499px;
+}
+
+.map-marker .point-box-14 {
+  top: 746px;
+  left: 738px;
+}
+
+.map-marker .point-box-15 {
+  top: 737px;
+  left: 1137px;
+}
+
+.map-marker .point-box-16 {
+  top: 736px;
+  left: 1339px;
+}
+
+.map-marker .point-box-17 {
+  top: 975px;
+  left: 862px;
+}
+
+.map-marker .point-box-18 {
+  top: 990px;
+  left: 878px;
+}
+
+.map-marker .point-box-19 {
+  top: 1005px;
+  left: 895px;
+}
+
+.map-marker .point-box-20 {
+  top: 979px;
+  left: 1136px;
+}

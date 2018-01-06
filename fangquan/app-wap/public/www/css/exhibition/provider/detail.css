@@ -1,0 +1,195 @@
+@import "../../ui/exhibition-h5/developer/developer-footer.css";
+
+.provider-box {
+    padding: 3.7vw 0;
+    font-family: "Hiragino Sans GB";
+}
+
+.provider-box .company-detail {
+    border-bottom: 1.1vw solid #efefef;
+    color: #757575;
+    font-size: 4.5vw;
+    padding: 0 4vw;
+}
+
+.company-detail ul li {
+    border-bottom: 1px solid #efefef;
+    padding: 20px 0;
+}
+
+.icon-box {
+    height: 40px;
+    color: #3e3e3e;
+}
+
+.icon-box img {
+    width: 5vw;
+    height: 6vw;
+    padding-right: 3vw;
+}
+
+.icon-box span {
+    font-size: 4.5vw;
+}
+
+.company-detail ul li:first-child img {
+    width: 138px;
+    height: 60px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.company-detail ul li:first-child {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.company-detail ul li:first-child .company-name {
+    padding-left: 15px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.company-detail ul li:first-child .company-name p:first-child {
+    color: #3f3f3f;
+    padding-bottom: 10px;
+}
+
+.company-detail ul li .city-name {
+    padding: 10px 0 0 0;
+}
+
+.company-detail ul li .city-name img {
+    width: 5vw;
+    height: 5vw;
+    display: inline-block;
+}
+
+.company-detail ul li .city-name span {
+    font-size: 3.7vw;
+}
+
+.company-detail ul li:nth-child(2) {
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+
+.company-detail ul li:nth-child(2) p {
+    padding-bottom: 15px;
+    padding-left: 7vw;
+}
+
+.company-detail ul li:nth-child(2) p:last-child {
+    padding-bottom: 0;
+}
+
+.company-detail ul li:nth-child(2) p span:first-child {
+    color: #959595;
+}
+
+.company-detail ul li:last-child {
+    border-bottom: none;
+    padding-left: 7vw;
+    padding-top: 0;
+}
+
+.company-detail ul li:last-child p {
+    padding-bottom: 15px;
+    color: #959595;
+}
+
+.company-detail ul li:last-child div {
+    text-indent: 9vw;
+}
+
+.company-detail ul li:last-child a {
+    color: #1bc7c9;
+}
+
+.business-information {
+    border-bottom: 1.1vw solid #efefef;
+    padding: 3.7vw 4vw;
+}
+
+.business-information p {
+    padding-bottom: 15px;
+    color: #757575;
+    font-size: 4.5vw;
+}
+
+.business-information .table {
+    width: 100%;
+    font-size: 4vw;
+    color: #757575;
+    border: 1px solid #bbbbba;
+}
+
+.business-information .table tbody > tr {
+    padding: 5px 0;
+}
+
+.business-information .table tbody > tr > td {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #bbbbba;
+}
+
+.business-information .table tbody > tr > td:first-child {
+    text-align: left;
+    padding-left: 4vw;
+    width: 40%;
+}
+
+.business-information .table tbody > tr > td:nth-child(2) {
+    text-align: left;
+    padding-left: 10vw;
+    width: 60%;
+}
+
+.business-information .table tbody > tr:nth-child(2n+1) > td {
+    color: #fff;
+    background-color: #1bc7c9;
+    margin: 0 2px;
+}
+
+.provider-box > a {
+    display: block;
+    padding: 0 4vw;
+    border-bottom: 1.1vw solid #efefef;
+    color: #757575;
+    font-size: 4.5vw;
+}
+
+.provider-box > a .icon-box {
+    line-height: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.provider-box > a .icon-box img {
+    padding-top: 3.5vw;
+}
+
+.provider-box > a i {
+    display: inline-block;
+    color: #1bc7c9;
+    font-size: 6.5vw;
+    padding-left: 60vw;
+}
+
+.service-network {
+    padding: 3.7vw 4vw 0;
+    color: #757575;
+}
+
+.service-network .img-box img {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 15px;
+}
+
+.service-network ul li {
+    color: #757575;
+    font-size: 4vw;
+    padding-bottom: 10px;
+}

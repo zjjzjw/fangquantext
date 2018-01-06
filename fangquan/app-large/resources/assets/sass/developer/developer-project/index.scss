@@ -1,0 +1,57 @@
+.col-2 .content-box .pic-box {
+  position: relative;
+  width: 30%;
+  float: left;
+  height: 200px;
+}
+
+.col-2 .content-box .pic-box img {
+  width: auto;
+  max-width: 160px;
+  height: auto;
+  max-height: 160px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.col-2 .content-box .info .title {
+  height: 60px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.col-2 .content-box .info .company {
+  font-size: 16px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.col-2 .content-box .info ul > li {
+  list-style: none;
+  line-height: 2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.col-2 .content-box .bottom p .fa {
+  color: #e51e25;
+  font-size: 28px;
+  padding-right: 2px;
+}
+
+.form-group .show-box a.active {
+  color: #fff;
+  border: 1px solid #cb000b;
+  background-color: #e80012;
+}

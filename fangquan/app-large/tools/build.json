@@ -1,0 +1,48 @@
+{
+    "modules": [
+        {
+            "src": "developer/developer/index",
+            "dest": "developer/developer"
+        },
+        {
+            "src": "developer/developer-project/detail",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "developer/developer-project/index",
+            "dest": "developer/developer-project"
+        },
+        {
+            "src": "home/index",
+            "dest": "home"
+        },
+        {
+            "src": "home/map",
+            "dest": "home"
+        },
+        {
+            "src": "provider/provider/detail",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/engineer-case",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/index",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/product-display",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/second",
+            "dest": "provider/provider"
+        },
+        {
+            "src": "provider/provider/service-network",
+            "dest": "provider/provider"
+        }
+    ]
+}

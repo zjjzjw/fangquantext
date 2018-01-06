@@ -1,0 +1,59 @@
+.press-box {
+  width: 100%;
+  height: 40px;
+  padding: 60px 0 40px;
+}
+
+.press-box ul {
+  margin: 0 auto;
+}
+
+.press-box ul li {
+  float: left;
+}
+
+.press-box ul .active-dian {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  border: 2px solid #59c91c;
+  position: relative;
+}
+
+.press-box ul .active-dian span {
+  position: absolute;
+  top: -30px;
+  left: -3px;
+  color: #59c91c;
+  font-weight: bold;
+}
+
+.press-box ul .active-dian i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #59c91c;
+  margin-bottom: 6px;
+}
+
+.press-box ul .active-line {
+  width: 3%;
+  height: 2px;
+  background-color: #59c91c;
+  margin: 7px 2px 0;
+}
+
+.press-box ul .dian {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  border: 2px solid #f4c044;
+}
+
+.press-box ul .line {
+  width:3%;
+  height: 2px;
+  background-color: #f4c044;
+  margin: 7px 2px 0;
+}

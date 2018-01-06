@@ -1,0 +1,74 @@
+@import "../../../common/developer-header";
+@import "../../../common/no-data";
+.index-header{
+  width: 100%;
+  margin: 0 auto;
+  height: 78px;
+  background-color: #fff;
+}
+.header-box{
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "HiraginoSansGB W3";
+  font-size: 18px;
+  color: #3f3f3f;
+  padding: 20px 0 0 14px;
+}
+.header-box ul{
+  display: inline-block;
+}
+.header-box ul li{
+  display: inline-block;
+  width: 93px;
+  text-align: center;
+  border: 1px solid #1bc7c9;
+  margin-right: 10px;
+}
+.header-box ul li a{
+  display: block;
+  color: #1bc7c9;
+  padding:4px 0;
+}
+.header-box ul .active{
+  background-color: #1bc7c9;
+  color: #fff;
+}
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding:100px 85px;
+  background-color: #fff;
+  border-top:1px solid #efefef;
+}
+.main-content .content-ul{
+  overflow: hidden;
+}
+.main-content .content-ul li{
+  float: left;
+  width: 148px;
+  height: 148px;
+  margin: 0 146px 48px 0;
+  text-align: center;
+}
+.main-content .content-ul li a{
+  display: block;
+  line-height: 148px;
+}
+.main-content .content-ul li a img{
+  max-width: 148px;
+  max-height: 148px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.main-content .content-ul li:nth-child(4n+4){
+  margin-right: 0;
+}
+footer{
+  width: 1200px;
+  margin:0 auto;
+  background-color: #fff;
+}
+.patials-paging{
+  width: auto;
+}

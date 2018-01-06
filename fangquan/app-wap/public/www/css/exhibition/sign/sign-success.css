@@ -1,0 +1,118 @@
+body {
+    height: auto;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    padding-bottom: 0;
+}
+
+.register-box {
+    width: 100%;
+    height: auto;
+    margin: 35vw auto 0;
+    font-family: hiraginosansgb;
+    color: #707070;
+}
+
+.register-box .crowd-type1 {
+    background: #DE903C;
+}
+
+.register-box .crowd-type2 {
+    background: #53DE3C;
+}
+
+.register-box .crowd-type3 {
+    background: #3CBADE;
+}
+
+.register-box .crowd-type4 {
+    background: #FFF100;
+}
+
+.register-box .crowd-type5 {
+    background: #FF00FF;
+}
+
+.register-box .crowd-type6 {
+    background: #E60012;
+}
+
+.info-detail {
+    margin-bottom: 5vw;
+}
+
+.info-detail span {
+    display: block;
+    font-weight: bold;
+    font-size: 4.7vw;
+}
+
+.register-form {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.register-form ul {
+    margin-bottom: 10vw;
+    text-align: left;
+}
+
+.register-form li {
+    font-size: 4.7vw;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 5vw;
+    padding-left: 30px;
+}
+
+.register-form li em {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1vw;
+    left: 0;
+    background: #707070;
+}
+
+.register-form p:first-child {
+    padding-bottom: 40px;
+    padding-left: 5vw;
+}
+
+.register-form p {
+    font-size: 4.7vw;
+    font-weight: bold;
+    position: relative;
+}
+
+.btn-box {
+    margin-top: 30vw;
+}
+
+.btn-box .btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    background-color: #1cc7ca;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    text-indent: 0;
+    float: none;
+    padding: 0;
+}
+
+@media (max-device-width: 320px) {
+    .register-form li em {
+        width: 15px;
+        height: 15px;
+    }
+}

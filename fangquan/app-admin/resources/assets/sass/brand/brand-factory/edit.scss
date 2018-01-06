@@ -1,0 +1,58 @@
+@import "../../../common/confirm-pop";
+@import "../../../common/prompt-pop";
+@import "../../../common/loading-pop";
+@import "../../../common/brand-nav";
+@import "../../../common/list-edit";
+@import "../../../common/select-product-pop";
+
+.small-14 label {
+  margin-right: 3%;
+}
+
+.inline-areas {
+  width: 27%;
+  display: inline-block;
+}
+
+.inline-areas:first-child{
+  margin-right: 2%;
+}
+.range {
+  max-width: 550px;
+  padding-top: 20px;
+  height:200px;
+  overflow: hidden;
+  overflow-y: auto;
+  border:1px solid #d9d9d9;
+}
+
+.range .form-error {
+  top: auto;
+  right:0;
+  bottom: -5px;
+}
+
+.range span {
+  float: left;
+  margin-right: 30px;
+}
+
+.range-container {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.range-container p{
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.range-item {
+  margin-left: 20px;
+  height:auto;
+  overflow: hidden;
+}
+.range-item label{
+  font-weight: normal;
+  margin-right: 0;
+}

@@ -1,0 +1,170 @@
+@import "../../../common/personal-main-header";
+@import "../../../common/add-picture";
+
+.content-box {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #666666;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  margin-bottom: 21px;
+}
+
+.title {
+  margin-bottom: 11px;
+  background: #ffffff;
+}
+
+.title h3 {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #666666;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 77px;
+}
+
+.part-one {
+  width: 454px;
+  height: 522px;
+  background: #ffffff;
+  float: left;
+  padding: 28px 14px 0;
+}
+
+.part-one .my-account {
+  line-height: 66px;
+  border-bottom: 1px solid #efefef;
+  margin-left: 15px;
+}
+
+.part-one .my-account a {
+  color: #1bc7c9;
+}
+
+.part-one li {
+  line-height: 43px;
+  border-bottom: 1px solid #efefef;
+  padding-left: 44px;
+}
+
+.part-one li a {
+  color: #666;
+  font-size: 18px;
+}
+
+.part-one li img {
+  vertical-align: middle;
+  margin-right: 21px;
+}
+
+.part-two {
+  width: 735px;
+  height: auto;
+  overflow: hidden;
+  background: #ffffff;
+  float: left;
+  margin-left: 11px;
+  padding: 0 10px;
+}
+
+.part-two h3 {
+  line-height: 66px;
+  color: #666;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding-left: 20px;
+  margin-bottom: 26px;
+}
+
+.part-two h3:first-child {
+  border-top: none;
+}
+
+.form-horizontal .input-group {
+  margin-bottom: 18px;
+}
+
+.form-horizontal .input-group > label {
+  font-size: 18px;
+  color: #666666;
+  font-weight: normal;
+  width: 95px;
+  text-align: right;
+  margin-right: 32px;
+}
+
+.form-horizontal .input-group > div {
+  display: inline-block;
+  position: relative;
+}
+
+.form-error {
+  position: absolute;
+  top: 25px;
+}
+
+.form-horizontal .input-group input[type='text'] {
+  width: 307px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #1bc7c9;
+}
+
+.form-horizontal .multiple {
+  width: 129px;
+  display: inline-block;
+}
+
+.form-horizontal .multiple label {
+  font-weight: normal;
+  margin-left: 13px;
+}
+
+.form-horizontal .exposes {
+  display: inline-block;
+  width: 307px;
+}
+
+.form-horizontal .exposes a {
+  color: #1bc7c9;
+  float: right;
+}
+
+.inline-areas {
+  width: 147px;
+  display: inline-block;
+}
+
+.inline-areas select {
+  border: 1px solid #1bc7c9;
+  width: 147px;
+  height: 32px;
+  line-height: 32px;
+  background: #ffffff;
+}
+
+.inline-areas:first-of-type {
+  margin-right: 13px;
+}
+
+.img-box {
+  margin-left: 180px;
+}
+
+.input-group .button {
+  background: #1bc7c9;
+  width: 306px;
+  height: 32px;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 47px;
+  border-radius: 0;
+  border: none;
+  margin-left: 127px;
+}

@@ -1,0 +1,67 @@
+.developer-header {
+   width: 100%;
+   margin: 0 auto;
+   height: 88px;
+ }
+
+.developer-header .public-header {
+  width: 1400px;
+  margin: 0 auto;
+}
+.developer-header .public-header .logo a{
+  display: block;
+}
+.developer-header .public-header .logo {
+  float: left;
+  height: 42px;
+  margin-top: 23px;
+  padding-right: 40px;
+}
+
+.developer-header .public-header .logo img {
+  width: 117px;
+  height: 42px;
+}
+.developer-header .public-header .supplice {
+  float: left;
+  font-size: 20px;
+  line-height: 88px;
+  font-family: "HiraginoSansGB W3";
+}
+
+.developer-header .public-header .supplice a {
+  color: #3f3f3f;
+  text-align: center;
+}
+
+.developer-header .public-header .supplice a.active {
+  color: #1bc7c9;
+  border-bottom: 2px solid #1bc7c9;
+}
+
+.developer-header .public-header .supplice a{
+  margin-right: 20px;
+}
+.developer-header .public-header .login {
+  float: right;
+  font-size: 16px;
+  line-height: 88px;
+}
+.developer-header .public-header .login a{
+  float: left;
+  margin-right: 25px;
+  font-family: "Microsoft YaHei";
+}
+.developer-header .public-header .login a:first-child img{
+  width: 53px;
+  height: 53px;
+  border:3px solid #fff;
+  border-radius: 28px;
+  margin-top: 16px;
+}
+.developer-header .public-header .login a:nth-child(2){
+  color: #ff8c77;
+}
+.developer-header .public-header .login a:nth-child(3){
+  color: #999999;
+}

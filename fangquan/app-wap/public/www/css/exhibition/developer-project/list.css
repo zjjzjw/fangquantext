@@ -1,0 +1,340 @@
+@import "../../ui/exhibition-h5/developer/developer-footer.css";
+
+.content-wrapper {
+    position: relative;
+}
+
+.list-box {
+    padding: 2.7vw 4vw;
+}
+
+.search-box {
+    width: 100%;
+    height: auto;
+    background-color: #1bc7c9;
+    position: relative;
+    text-align: center;
+}
+
+.search-box input {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.optionlist {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    z-index: 130;
+    overflow: hidden;
+    background: #fff;
+    overflow-y: scroll;
+    border: 1px solid #c8c8c8;
+}
+
+.menu {
+    height: 50px;
+    z-index: 150;
+}
+
+#menuinfo {
+    z-index: 140;
+    position: relative;
+}
+
+.menunav {
+    display: -webkit-box;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    font-size: 4vw;
+    border-bottom: 1px solid #d9d9d9;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    color: #666;
+}
+
+.menunav .high, .optionlist .high, .optionlist .high:visited, .optionlist .high a, .optionlist .high a:visited {
+    color: #1bc7c9;
+}
+
+.menunav > p {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 50px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url("/www/image/exhibition/exhibition-h5/WechatIMG52.png");
+    background-repeat: no-repeat;
+    background-position: 26vw;
+    background-size: 3vw 1.5vw;
+}
+.menunav > p:first-child{
+    background-position: 24vw;
+}
+
+.menunav>.special-img{
+    background-image: url("/www/image/exhibition/exhibition-h5/WechatIMG53.png");
+}
+
+.parentup {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /*max-width: 95%;*/
+    color: #363636;
+    height: 50px;
+    line-height: 50px;
+}
+
+.menunav i {
+    display: block;
+}
+
+/*筛选条件*/
+.rsswitchinfo {
+    position: relative;
+    height: 305px;
+}
+
+.province-info {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    background: #ffffff;
+}
+
+.province-info a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #efefef;
+    color: #686868;
+    padding-left: 10vw;
+}
+
+.regionlist li a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #efefef;
+    color: #686868;
+    padding-left: 10vw;
+    background: #f6f6f6;
+}
+
+.regionlist .special-li > a {
+    background-image: url("/www/image/exhibition/exhibition-h5/WechatIMG50.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 2.5vw 3.5vw;
+}
+
+.regionlist .special-li > .active {
+    background-image: url("/www/image/exhibition/exhibition-h5/WechatIMG51.png");
+}
+
+.regionlist .active {
+    color: #d5323e;
+    background-color: #fff;
+}
+
+.categorylist a, .typelist a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    padding-left: 5vw;
+    font-size: 1.4rem;
+    color: #686868;
+}
+
+.categorylist .active, .typelist .active {
+    color: #d5323e;
+}
+
+.img-box {
+    padding-bottom: 4.7vw;
+}
+
+.img-box img {
+    width: 100%;
+    height: 50vw;
+}
+
+.list-content {
+    margin-bottom: 4vm;
+}
+
+.list-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-content ul li {
+    width: 48%;
+    padding: 0 2px;
+    border: 1px solid #1bc7c9;
+    text-align: center;
+    margin-bottom: 2%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.list-content ul li a {
+    display: block;
+}
+
+.list-content ul li:nth-child(2n-1) {
+    margin-right: .5%;
+}
+
+.list-content ul li .title {
+    margin-top: 2px;
+    font-size: 3.5vw;
+    color: #fff;
+    background-color: #1bc7c9;
+    padding: 2vw 1vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.clear {
+    clear: both;
+}
+
+.list-content ul li img {
+    margin: 1vw 0;
+    width: 20vw;
+    height: 10vw;
+}
+
+.list-content ul li .list-detail {
+    text-align: left;
+}
+
+.list-content ul li .list-detail p {
+    border-bottom: 1px solid #efefef;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #919191;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-content ul li .list-detail p:first-child {
+    font-size: 13px;
+    color: #757575;
+    height: 25px;
+    padding-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-content ul li .time {
+    height: 10vw;
+    line-height: 10vw;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #757575;
+}
+
+.list-content ul li .time img {
+    width: 4.5vw;
+    height: 5vw;
+    margin-right: 1vw;
+}
+
+.list-content ul li .time span:first-child {
+    float: left;
+}
+
+.list-content ul li .time span:last-child {
+    float: right;
+}
+
+.content-empty {
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.content-empty p {
+    color: #BBBBBB;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+/*背景阴影*/
+#dialog {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-device-width: 320px) {
+
+    .optionlist {
+        top: 37vw;
+    }
+
+    .list-content ul li .list-detail p:first-child {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+
+    .list-content ul li .list-detail p {
+        font-size: 11px;
+    }
+
+    .list-content ul li .time {
+        font-size: 10px;
+    }
+}
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .optionlist {
+        top: 32vw;
+    }
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .list-content ul li .list-detail p:first-child {
+        font-size: 14px;
+    }
+
+    .list-content ul li .list-detail p {
+        font-size: 13px;
+    }
+
+    .list-content ul li .time {
+        font-size: 12px;
+    }
+}

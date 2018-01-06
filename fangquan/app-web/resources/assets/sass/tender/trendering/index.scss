@@ -1,0 +1,109 @@
+@import "../../../common/back-top";
+.header .public-header .supplice a{
+  color: #1bc7c9;
+}
+.content-boxs>.title-detail{
+  padding:10px 0 20px 0;
+  background-color: #fff;
+  color: #3f3f3f;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+.content-boxs>.title-detail span{
+  vertical-align: middle;
+}
+.content-boxs>p{
+  width: 100%;
+  height: 10px;
+  background-color: #fff;
+}
+.main-content {
+  width: 1200px;
+  height: auto;
+  margin:0 auto;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.main-content .logo-box{
+  text-align: center;
+  padding:30px 0;
+  border-top:1px solid #efefef;
+}
+.main-content .logo-box img{
+  width: 110px;
+  height: 40px;
+}
+.main-content .logo-box img:first-child{
+  margin-right: 50px;
+}
+.main-content .img-box{
+  padding: 0 20px 0 33px;
+}
+.main-content .img-box img{
+  width: 556px;
+  height: 280px;
+  margin-bottom: 20px;
+}
+.main-content .img-box>a{
+  display: inline-block;
+}
+.main-content .img-box img:nth-child(2n+1){
+  margin-right: 15px;
+}
+.detail-box{
+  width: 100%;
+  padding:20px 20px 0 31px;
+  background-color: #fff;
+}
+.detail-box>div{
+  display: inline-block;
+  color: #666;
+  font-size: 16px;
+  height: 132px;
+  background-color: #fff;
+  vertical-align: top;
+}
+.detail-box .left-box{
+  width: 25%;
+  border: 1px solid #efefef;
+}
+.detail-box .left-box{
+  padding:25px 0 15px 10px;
+}
+.detail-box .left-box ul li{
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.detail-box .middle-box{
+  width: 60%;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+  margin-left: -4px;
+}
+.detail-box .middle-box ul li{
+  line-height: 20px;
+  padding-left: 30px;
+}
+.detail-box .middle-box ul li:first-child{
+  border-bottom: 1px solid #efefef;
+  line-height: 30px;
+  padding:0;
+  text-align: center;
+}
+.detail-box .middle-box ul li:nth-child(2){
+  padding-top: 10px;
+}
+.detail-box .right-box{
+  width: 14%;
+  text-align: center;
+  border: 1px solid #efefef;
+  margin-left: -4px;
+}
+.detail-box .right-box a{
+  vertical-align: middle;
+  line-height: 132px;
+}
+.detail-box .right-box a:active,.detail-box .right-box a:hover{
+  color: #666;
+}
